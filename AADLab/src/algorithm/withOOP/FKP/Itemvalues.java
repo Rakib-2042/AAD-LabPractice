@@ -1,14 +1,14 @@
-package algorithm.withOOP.fractionalknapsackproblem;
+package algorithm.withOOP.FKP;
 
-public class ItemValue {
+public class Itemvalues {
 	private int object;
 	private int profit;
 	private int weight;
-	public ItemValue(int object,int profit,int weight)
-	{
-		this.profit=profit;
-		this.weight=weight;
-		this.object=object;
+	
+	public Itemvalues(int object, int profit, int weight) {
+		this.object = object;
+		this.profit = profit;
+		this.weight = weight;
 	}
 	public int getObject() {
 		return object;
@@ -30,8 +30,6 @@ public class ItemValue {
 	}
 	@Override
 	public String toString() {
-		return "ItemValue [object=" + object + ", profit=" + profit + ", weight=" + weight + "]";
+		return "Itemvalues [object=" + object + ", profit=" + profit + ", weight=" + weight + "]";
 	}
-	
-	
 }
